@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.11.14">
 	<Task sr="task86">
 		<cdate>1614008078323</cdate>
-		<edate>1614012005036</edate>
+		<edate>1614096730577</edate>
 		<id>86</id>
 		<nme>Set Unsplash Wallpaper</nme>
 		<pri>100</pri>
@@ -47,6 +47,23 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg1" ve="3">Download/unsplash.jpg</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">Wallpaper Changed</Str>
+			<Str sr="arg1" ve="3">The wallpaper was changed to an Unsplash image.</Str>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3">super_tasker_notifications_created_by_me_the_developer</Str>
+			<Img sr="arg2" ve="2">
+				<nme>mw_device_wallpaper</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="5"/>
+			<Int sr="arg8" val="0"/>
+			<Str sr="arg9" ve="3"/>
 		</Action>
 	</Task>
 </TaskerData>
